@@ -1,8 +1,9 @@
 class Transfer
   # your code here
-  attr_reader :from, :to
-  def initialize(from, to)
+  attr_reader :from, :to, :balance 
+  def initialize(from, to, balance)
     @from = from 
     @to = to 
+    @balance = balance
   end
 end
