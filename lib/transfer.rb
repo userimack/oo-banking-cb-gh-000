@@ -35,4 +35,5 @@ class Transfer
     @from.deposit(@amount)
     @to.balance -= @amount
     @status = "reversed"
+  end
 end
