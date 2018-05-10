@@ -10,10 +10,10 @@ class Transfer
   end
   
   def sender 
-    self.from 
+    @from 
   end 
   
   def receiver 
-    self.to 
+    @to 
   end
 end
