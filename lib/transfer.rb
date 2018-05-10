@@ -1,5 +1,6 @@
 class Transfer
   # your code here
+  attr_accessor :status
   attr_reader :from, :to, :balance 
   def initialize(from, to, balance)
     @from = from 
