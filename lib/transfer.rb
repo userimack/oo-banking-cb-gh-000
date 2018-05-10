@@ -19,4 +19,7 @@ class Transfer
   def valid?
     @from.valid? && @to.valid?
   end
+  
+  def execute_transaction
+  end
 end
