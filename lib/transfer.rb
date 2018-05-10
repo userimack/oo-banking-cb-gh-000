@@ -30,4 +30,9 @@ class Transfer
       @status = "complete"
     end
   end
+  
+  def reverse_transfer
+    @from.deposit(@amount)
+    @to.balance -= @amount
+    @status = "reversed"
 end
