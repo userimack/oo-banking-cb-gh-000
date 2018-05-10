@@ -6,4 +6,12 @@ class Transfer
     @to = to 
     @balance = balance
   end
+  
+  def sender 
+    self.from 
+  end 
+  
+  def receiver 
+    self.to 
+  end
 end
