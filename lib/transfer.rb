@@ -15,4 +15,7 @@ class Transfer
   def receiver 
     @to 
   end
+  
+  def valid?
+    @from.valid? && @to.valid?
 end
