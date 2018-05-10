@@ -18,4 +18,5 @@ class Transfer
   
   def valid?
     @from.valid? && @to.valid?
+  end
 end
