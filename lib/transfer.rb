@@ -27,7 +27,7 @@ class Transfer
     else 
       @from.balance -= @amount 
       @to.deposit(@amount)
-      @status = "completed"
+      @status = "complete"
     end
   end
 end
