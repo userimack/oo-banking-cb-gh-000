@@ -5,6 +5,7 @@ class Transfer
     @from = from 
     @to = to 
     @balance = balance
+    @status = pending
   end
   
   def sender 
