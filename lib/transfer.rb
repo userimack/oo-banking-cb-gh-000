@@ -4,7 +4,7 @@ class Transfer
   def initialize(from, to, amount)
     @from = from 
     @to = to 
-    @amount = balance
+    @amount = amount
     @status = "pending"
   end
   
