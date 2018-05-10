@@ -1,7 +1,7 @@
 class Transfer
   # your code here
   attr_reader :status 
-  def initialize(from, to, balance)
+  def initialize(from, to, amount)
     @from = from 
     @to = to 
     @amount = balance
